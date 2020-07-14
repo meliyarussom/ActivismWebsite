@@ -61,7 +61,7 @@ p a {
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
-  margin: ;
+  margin: 5;
   padding: 0;
   overflow: hidden;
   background-color: pink;
@@ -139,10 +139,10 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: white; /* Add your own background color */
+  background-color: pink; /* Add your own background color */
   padding: 4%;
   margin: 3%;
-  color: #ff0066; /* Add the color of your font */
+  color: white; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
@@ -186,7 +186,7 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/a67af1eb-54cc-45ec-a519-c2fb9a367c33%2Fpushfood.png?v=1594755060614");
+  background-image: url("");
 }
 
 /* TODO: Replace the current image URL with your own */
