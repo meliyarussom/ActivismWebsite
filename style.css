@@ -172,7 +172,10 @@ li.nav a:hover {
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
-.image-one {
+.image-one,
+.image-two,
+.image-three, 
+.image-four{
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -203,11 +206,11 @@ li.nav a:hover {
 }
   /* TODO: Add the property to create the parallax scrolling effect here */
   background-attachment: fixed; 
-}
+
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
-.image-two {
-  background-image: url("https://cdn.glitch.com/a67af1eb-54cc-45ec-a519-c2fb9a367c33%2Frates.png?v=1594767676009");
+.image-one {
+  background-image: url("https://cdn.glitch.com/a67af1eb-54cc-45ec-a519-c2fb9a367c33%2Flinktocancer.jpeg?v=1594767476845");
 
   position: relative;
   background-position: center;
@@ -215,7 +218,9 @@ li.nav a:hover {
   background-color: white;
   background-size: cover;
   min-height: 100%; /* This adjusts the height of the image */
-  
+
+  /* TODO: Add the property to create the parallax scrolling effect here */
+  background-attachment: fixed; 
   
 /* TODO: Add more background images by repeating the process above */
 
