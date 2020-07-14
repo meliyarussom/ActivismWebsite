@@ -161,7 +161,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: white;
+  background-color: pink;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
@@ -181,12 +181,12 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
-  
+  background-attachment: fixed; 
 }
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/a67af1eb-54cc-45ec-a519-c2fb9a367c33%2FHealthyfood.png?v=1594755054867");
+  background-image: url("https://cdn.glitch.com/a67af1eb-54cc-45ec-a519-c2fb9a367c33%2Fpushfood.png?v=1594755060614");
 }
 
 /* TODO: Replace the current image URL with your own */
