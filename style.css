@@ -61,12 +61,12 @@ p a {
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
-  margin: 0;
+  margin: ;
   padding: 0;
   overflow: hidden;
-  background-color: #ff0066;
+  background-color: pink;
   border-style: solid;
-  border-color: white;
+  border-color: #ff0066;
 }
 
 /* TODO (optional): Change the font size*/
@@ -191,12 +191,33 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
-  background-image: url("https://cdn.glitch.com/a67af1eb-54cc-45ec-a519-c2fb9a367c33%2FObesitylinktocancer.jpeg?v=1594755079753");
-}
+  background-image: url("");
 
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  min-height: 100%; /* This adjusts the height of the image */
+
+}
+  /* TODO: Add the property to create the parallax scrolling effect here */
+  background-attachment: fixed; 
+}
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
-.image-one {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fpuppy.jpg?v=1589146535603");
+.image-two {
+  background-image: url("https://cdn.glitch.com/a67af1eb-54cc-45ec-a519-c2fb9a367c33%2Fdoctor.png?v=1594755073751");
+
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  min-height: 100%; /* This adjusts the height of the image */
+
+}
+  /* TODO: Add the property to create the parallax scrolling effect here */
+  background-attachment: fixed; 
 }
 /* TODO: Add more background images by repeating the process above */
 
