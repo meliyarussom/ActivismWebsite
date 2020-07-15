@@ -200,7 +200,7 @@ li.nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-color: white;
-  background-size: cover;
+  background-size: contain;
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
