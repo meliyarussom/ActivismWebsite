@@ -58,7 +58,7 @@
   padding: 35px;
   margin: 5%;
   flex-grow: 1;
-  background-color: #0d9c90;
+  background-color: #ff0066;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -77,7 +77,7 @@
 /* Header in the list container */
 #checklist-header {
   text-align: center;
-  color: #0D38D3;
+  color: pink;
   letter-spacing: 1px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
@@ -87,7 +87,7 @@
   font: 14px "Roboto", sans-serif;
   text-align: center;
   font-style: italic;
-  color: #0D38D3;
+  color: black;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   
 }
@@ -118,7 +118,7 @@
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #43d6b9ff;
+  border-color: pink;
   border-style: solid;
   border-width: 2px;
   
@@ -138,26 +138,26 @@ like a checkmark!
 
 /* Change background color when cursor hovers over list items */
 #my-list li:hover {
-  background: #f3f3f3;
-  color: #0D38D3;
+  background: #ff0066;
+  color: white;
 }
 
 /* Change check square color when cursor hovers over */
 #my-list li:hover::before {
-  border-color: #0D38D3;
+  border-color: white;
   border-style: solid;
 }
 
 /* When marked complete (i.e. clicked on) add strikethrough */
 #my-list li.all-done {
-  text-decoration: line-through;
+  text-decoration: none;
 }
 
 /* Add a "checked" mark when clicked on */
 #my-list li.all-done::before {
   content: "";
   position: absolute;
-  border-color: #0D38D3;
+  border-color: #ff0066;
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 5px;
