@@ -9,7 +9,10 @@ if (fullItemList) {
   fullItemList.addEventListener("click", checkOffItem);
 }
 function checkOffItem(clicked) {
-  
+    if (clicked.target.tagName == "LI") {
+        clicked. target.classList. toggle("all-done");
+      
+    }
 }
 /* TODO: Create the event listener that listens for a mouse click and runs the checkOffList function */
 
