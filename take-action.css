@@ -8,6 +8,9 @@
   text-transform: uppercase;
   background-color: none;
 }
+h2 {
+  color: black;
+}
 
 
 /******************************************************/
@@ -70,6 +73,7 @@
   padding-bottom: 15px;
   border-style: solid;
   border-color: pink;
+  
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -79,6 +83,7 @@
   text-align: center;
   color: pink;
   letter-spacing: 1px;
+  
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -88,6 +93,7 @@
   text-align: center;
   font-style: italic;
   color: black;
+  
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   
 }
